@@ -6,15 +6,11 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
----
-
 ## ✨ Why this project stands out
 
 - **Real business goal:** choose platforms/genres for a 2017 marketing strategy
 - **Full analytics pipeline:** data cleaning → EDA → hypothesis testing → recommendations
 - **Strong foundations for ML:** solid preprocessing, feature engineering, and statistical rigor
-
----
 
 ## 📋 Project Overview
 
@@ -24,8 +20,6 @@ This project analyzes historical game sales (~17K records) to identify market pa
 - **Exploratory analysis**: trends over time, platform lifecycle, genre distribution, regional preferences
 - **Statistical testing**: t-tests for key business hypotheses with α control
 - **Actionable insights**: platform/genre focus and campaign guidance by region
-
----
 
 ## 🧰 Tech Stack
 
@@ -37,16 +31,12 @@ This project analyzes historical game sales (~17K records) to identify market pa
 | **Statistics**    | scipy.stats         |
 | **Environment**   | Jupyter Notebook    |
 
----
-
 ## 🧠 Skills Demonstrated
 
 - **Data preprocessing:** imputation by groups, type fixes, handling “tbd”, deduplication
 - **EDA & visualization:** distributions, correlations, time dynamics, segmentation
 - **Statistical inference:** hypothesis testing, significance levels, interpretation
 - **Business framing:** turning analysis into concrete, region-aware recommendations
-
----
 
 ## 🚀 Getting Started
 
@@ -78,8 +68,6 @@ You can open the notebook to review the full analysis, visualizations, and concl
 jupyter notebook game_sales_analysis.ipynb
 ```
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -92,8 +80,6 @@ yandex-practicum-game-sales/
     └── games.csv               # Game sales dataset
 ```
 
----
-
 ## 📊 Key Findings (from the analysis)
 
 - **Relevant period:** 2006–2016 (platform lifecycle ~6 years)
@@ -102,15 +88,11 @@ yandex-practicum-game-sales/
 - **Score impact:** critic scores moderately correlate with sales; user scores correlate weakly
 - **Hypotheses:** user score differences confirmed between XOne vs PC and Action vs Sports
 
----
-
 ## 🔭 What I would do next (ML-focused)
 
 - Build a **forecasting model** for 2017 sales by platform/genre
 - Add **feature importance analysis** for sales drivers
 - Validate insights with **cross-validation** and **holdout years**
-
----
 
 ## 📬 Contact
 
